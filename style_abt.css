@@ -1,0 +1,146 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box; 
+   font-size:16px;
+}
+
+
+/* This is a CSS comment.
+Always comment your work to explain what you're doing */ 
+body {
+font-family: arial, sans-serif;
+}
+
+/* Note that if we want a number of different elements to have the same style, we just comma separate them. */
+header, footer {
+               text-align: center;
+               }
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: white;
+  overflow: auto;
+}
+
+header {
+  background-color: #D1E7FF;
+  text-align: center;
+  height: 130px;
+  font-size: auto;
+}
+
+main h1 {  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: normal;}
+
+header h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: normal;
+}
+
+ p,a {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h2, p, li {
+  padding-bottom: 1em;
+}
+p,a {font-size: 18px}
+h2 {font-size: 22px}
+h1 {padding-bottom: 0.3em}
+
+/* let's bring the width in a little */
+/* check it out - we're responsive without even trying! */ 
+main {
+/* There's rarely any time you should set an explicit width. Always use max-width wherever possible. */
+     max-width: 1000px;
+/* Change the above to width: 1000px and see what happens with responsive */
+     margin-left: 0;
+     margin-right: 0; 
+      }
+
+/* let's talk about nesting */ 
+.item li {
+          margin-left: 25px;
+}
+blockquote {
+text-transform: uppercase; 
+font-style: italic;
+}
+
+
+.container {
+  display: flex;
+	width: 98.94vw;
+	height: 100%;
+}
+
+.left {
+flex:50%;
+height: calc( 100vh - 134px);
+}
+
+.right{
+	
+flex:70%;
+padding:2%
+}
+
+.left img {
+	height:100%;
+	object-fit:cover;
+	padding: 5px;
+	background-color: #D1E7FF;
+	border-radius: 20px;
+}
+.round {border-radius:20px}
+
+.left {
+		padding: 8px;
+	padding-bottom: 0px;
+
+}
+
+nav {
+text-align: center;
+}
+nav li {
+display: inline-block;
+
+}
+/* nav li a, or nav a ?? */ nav a { 
+color: black;
+padding: 5px; 
+text-decoration: none; 
+border-radius: 5px;
+}
+nav a:hover {
+background: white;
+}
+body {
+background-color: white; 
+background-repeat: no-repeat; 
+background-size: cover;
+}
+
+/* Font styles */
+.poppins-regular,
+.poppins-medium,
+.poppins-semibold,
+.poppins-regular-italic,
+.poppins-medium-italic,
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+}
+
+.rubik-variable {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}

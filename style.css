@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 0;
+ min-width: 0;
+	min-height: 0
+}
+.head img {
+  border-radius: 8px;
+  object-fit: cover;
+  max-height: 200px;
+ 
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: white;
+  overflow: hidden;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+}
+
+main h1,
+header h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, p, li {
+  padding-bottom: 0.5em;
+}
+.head {padding-top: 8px}
+.item, .head {
+  background-color: #D1E7FF;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  max-width: 100%;
+  margin-left: 225px;
+  box-sizing: border-box;
+
+	
+}
+
+
+
+ul {
+  list-style-type: none;
+}
+
+.bar {
+  background: #FFFFFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 225px;
+  height: 100%;
+  padding: 2%;
+  font-size: 16px;
+}
+
+#flex {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+height: 82.7vh;
+}
+
+
+
+.item div img {
+height: 100%;
+width: 100%;
+ border-radius: 8px;
+overflow-y: hidden;
+object-fit: cover;
+}
+
+
+
+#one, #two, #three { 
+    width: 33.33%;
+}
+
+nav {
+  text-align: left;
+  font-size:16px;
+}
+
+nav a {
+  background: white;
+  color: black;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  display:block;
+}
+
+#one:hover {
+	filter: brightness(110%)
+}
+
+#two:hover {
+	filter: brightness(110%)
+}
+
+#three:hover {
+	filter: brightness(110%)
+}
+
+nav a:hover {
+  background: #D1E7FF;
+}
+
+body {
+  background-color: #D1E7FF;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Font styles */
+.poppins-regular,
+.poppins-medium,
+.poppins-semibold,
+.poppins-regular-italic,
+.poppins-medium-italic,
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+}
+
+.rubik-variable {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+
